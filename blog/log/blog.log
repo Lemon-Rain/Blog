@@ -1,0 +1,148 @@
+2021-04-28 10:17:55.404  INFO 12880 --- [main] com.lsx.blog.BlogApplication             : Starting BlogApplication using Java 14.0.1 on DESKTOP-CDIA15J with PID 12880 (C:\Users\ReLive\IdeaProjects\blog\target\classes started by ReLive in C:\Users\ReLive\IdeaProjects\blog)
+2021-04-28 10:17:55.407 DEBUG 12880 --- [main] com.lsx.blog.BlogApplication             : Running with Spring Boot v2.4.5, Spring v5.3.6
+2021-04-28 10:17:55.407  INFO 12880 --- [main] com.lsx.blog.BlogApplication             : No active profile set, falling back to default profiles: default
+2021-04-28 10:17:56.029  WARN 12880 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.lsx.blog]' package. Please check your configuration.
+2021-04-28 10:17:56.346  INFO 12880 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2021-04-28 10:17:56.354  INFO 12880 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-04-28 10:17:56.355  INFO 12880 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-04-28 10:17:56.443  INFO 12880 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-04-28 10:17:56.444  INFO 12880 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 978 ms
+2021-04-28 10:17:56.598  INFO 12880 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-28 10:17:56.703  WARN 12880 --- [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-04-28 10:17:56.724  WARN 12880 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Failed to determine a suitable driver class
+2021-04-28 10:17:56.725  INFO 12880 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-28 10:17:56.727  INFO 12880 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2021-04-28 10:17:56.742  INFO 12880 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-04-28 10:17:56.755 ERROR 12880 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (no profiles are currently active).
+
+2021-04-28 10:18:05.016  INFO 3616 --- [main] com.lsx.blog.BlogApplication             : Starting BlogApplication using Java 14.0.1 on DESKTOP-CDIA15J with PID 3616 (C:\Users\ReLive\IdeaProjects\blog\target\classes started by ReLive in C:\Users\ReLive\IdeaProjects\blog)
+2021-04-28 10:18:05.018 DEBUG 3616 --- [main] com.lsx.blog.BlogApplication             : Running with Spring Boot v2.4.5, Spring v5.3.6
+2021-04-28 10:18:05.019  INFO 3616 --- [main] com.lsx.blog.BlogApplication             : No active profile set, falling back to default profiles: default
+2021-04-28 10:18:05.622  WARN 3616 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.lsx.blog]' package. Please check your configuration.
+2021-04-28 10:18:05.935  INFO 3616 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2021-04-28 10:18:05.943  INFO 3616 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-04-28 10:18:05.943  INFO 3616 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-04-28 10:18:06.063  INFO 3616 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-04-28 10:18:06.064  INFO 3616 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 974 ms
+2021-04-28 10:18:06.219  INFO 3616 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-28 10:18:06.320  WARN 3616 --- [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-04-28 10:18:06.515  WARN 3616 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8081 is already in use
+2021-04-28 10:18:06.517  INFO 3616 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-28 10:18:06.519  INFO 3616 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2021-04-28 10:18:06.531  INFO 3616 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-04-28 10:18:06.543 ERROR 3616 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8081 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8081 or configure this application to listen on another port.
+
+2021-04-28 10:18:26.868  INFO 12756 --- [main] com.lsx.blog.BlogApplication             : Starting BlogApplication using Java 14.0.1 on DESKTOP-CDIA15J with PID 12756 (C:\Users\ReLive\IdeaProjects\blog\target\classes started by ReLive in C:\Users\ReLive\IdeaProjects\blog)
+2021-04-28 10:18:26.871 DEBUG 12756 --- [main] com.lsx.blog.BlogApplication             : Running with Spring Boot v2.4.5, Spring v5.3.6
+2021-04-28 10:18:26.871  INFO 12756 --- [main] com.lsx.blog.BlogApplication             : No active profile set, falling back to default profiles: default
+2021-04-28 10:18:27.473  WARN 12756 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.lsx.blog]' package. Please check your configuration.
+2021-04-28 10:18:27.786  INFO 12756 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-04-28 10:18:27.795  INFO 12756 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-04-28 10:18:27.795  INFO 12756 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-04-28 10:18:27.895  INFO 12756 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-04-28 10:18:27.895  INFO 12756 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 959 ms
+2021-04-28 10:18:28.056  INFO 12756 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-28 10:18:28.164  WARN 12756 --- [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-04-28 10:18:28.354  INFO 12756 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-04-28 10:18:28.366  INFO 12756 --- [main] com.lsx.blog.BlogApplication             : Started BlogApplication in 1.956 seconds (JVM running for 2.614)
+2021-04-28 10:26:00.729  INFO 1236 --- [main] com.lsx.blog.BlogApplication             : Starting BlogApplication using Java 14.0.1 on DESKTOP-CDIA15J with PID 1236 (C:\Users\ReLive\IdeaProjects\blog\target\classes started by ReLive in C:\Users\ReLive\IdeaProjects\blog)
+2021-04-28 10:26:00.732 DEBUG 1236 --- [main] com.lsx.blog.BlogApplication             : Running with Spring Boot v2.4.5, Spring v5.3.6
+2021-04-28 10:26:00.733  INFO 1236 --- [main] com.lsx.blog.BlogApplication             : No active profile set, falling back to default profiles: default
+2021-04-28 10:26:01.343  WARN 1236 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.lsx.blog]' package. Please check your configuration.
+2021-04-28 10:26:01.689  INFO 1236 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-04-28 10:26:01.698  INFO 1236 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-04-28 10:26:01.698  INFO 1236 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-04-28 10:26:01.789  INFO 1236 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-04-28 10:26:01.789  INFO 1236 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 989 ms
+2021-04-28 10:26:01.973  INFO 1236 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-28 10:26:02.085  WARN 1236 --- [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-04-28 10:26:02.281  INFO 1236 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-04-28 10:26:02.292  INFO 1236 --- [main] com.lsx.blog.BlogApplication             : Started BlogApplication in 1.985 seconds (JVM running for 2.624)
+2021-04-28 10:27:41.326  INFO 17128 --- [main] com.lsx.blog.BlogApplication             : Starting BlogApplication using Java 14.0.1 on DESKTOP-CDIA15J with PID 17128 (C:\Users\ReLive\IdeaProjects\blog\target\classes started by ReLive in C:\Users\ReLive\IdeaProjects\blog)
+2021-04-28 10:27:41.329 DEBUG 17128 --- [main] com.lsx.blog.BlogApplication             : Running with Spring Boot v2.4.5, Spring v5.3.6
+2021-04-28 10:27:41.329  INFO 17128 --- [main] com.lsx.blog.BlogApplication             : No active profile set, falling back to default profiles: default
+2021-04-28 10:27:41.939  WARN 17128 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.lsx.blog]' package. Please check your configuration.
+2021-04-28 10:27:42.252  INFO 17128 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-04-28 10:27:42.260  INFO 17128 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-04-28 10:27:42.261  INFO 17128 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-04-28 10:27:42.345  INFO 17128 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-04-28 10:27:42.346  INFO 17128 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 957 ms
+2021-04-28 10:27:42.493  INFO 17128 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-28 10:27:42.595  WARN 17128 --- [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-04-28 10:27:42.788  INFO 17128 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-04-28 10:27:42.800  INFO 17128 --- [main] com.lsx.blog.BlogApplication             : Started BlogApplication in 1.902 seconds (JVM running for 2.492)
+2021-04-28 10:28:26.177  INFO 17128 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-28 10:28:26.178  INFO 17128 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-04-28 10:28:26.178  INFO 17128 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2021-04-28 10:33:35.596  INFO 14868 --- [main] com.lsx.blog.BlogApplication             : Starting BlogApplication using Java 14.0.1 on DESKTOP-CDIA15J with PID 14868 (C:\Users\ReLive\Desktop\毕业设计\workspace\blog\target\classes started by ReLive in C:\Users\ReLive\Desktop\毕业设计\workspace\blog)
+2021-04-28 10:33:35.599 DEBUG 14868 --- [main] com.lsx.blog.BlogApplication             : Running with Spring Boot v2.4.5, Spring v5.3.6
+2021-04-28 10:33:35.601  INFO 14868 --- [main] com.lsx.blog.BlogApplication             : No active profile set, falling back to default profiles: default
+2021-04-28 10:33:36.194  WARN 14868 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.lsx.blog]' package. Please check your configuration.
+2021-04-28 10:33:36.515  INFO 14868 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-04-28 10:33:36.523  INFO 14868 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-04-28 10:33:36.524  INFO 14868 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-04-28 10:33:36.618  INFO 14868 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-04-28 10:33:36.619  INFO 14868 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 958 ms
+2021-04-28 10:33:36.813  INFO 14868 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-28 10:33:36.912  WARN 14868 --- [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-04-28 10:33:37.102  INFO 14868 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-04-28 10:33:37.116  INFO 14868 --- [main] com.lsx.blog.BlogApplication             : Started BlogApplication in 1.996 seconds (JVM running for 2.869)
+2021-04-28 10:34:03.450  INFO 8080 --- [main] com.lsx.blog.BlogApplication             : Starting BlogApplication using Java 14.0.1 on DESKTOP-CDIA15J with PID 8080 (C:\Users\ReLive\Desktop\毕业设计\workspace\blog\target\classes started by ReLive in C:\Users\ReLive\Desktop\毕业设计\workspace\blog)
+2021-04-28 10:34:03.454 DEBUG 8080 --- [main] com.lsx.blog.BlogApplication             : Running with Spring Boot v2.4.5, Spring v5.3.6
+2021-04-28 10:34:03.455  INFO 8080 --- [main] com.lsx.blog.BlogApplication             : No active profile set, falling back to default profiles: default
+2021-04-28 10:34:04.198  WARN 8080 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.lsx.blog]' package. Please check your configuration.
+2021-04-28 10:34:04.528  INFO 8080 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-04-28 10:34:04.536  INFO 8080 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-04-28 10:34:04.536  INFO 8080 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-04-28 10:34:04.625  INFO 8080 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-04-28 10:34:04.625  INFO 8080 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1090 ms
+2021-04-28 10:34:04.786  INFO 8080 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-28 10:34:04.899  WARN 8080 --- [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-04-28 10:34:05.103  INFO 8080 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-04-28 10:34:05.116  INFO 8080 --- [main] com.lsx.blog.BlogApplication             : Started BlogApplication in 2.124 seconds (JVM running for 2.874)
+2021-04-28 10:34:20.891  INFO 7756 --- [main] com.lsx.blog.BlogApplication             : Starting BlogApplication using Java 14.0.1 on DESKTOP-CDIA15J with PID 7756 (C:\Users\ReLive\Desktop\毕业设计\workspace\blog\target\classes started by ReLive in C:\Users\ReLive\Desktop\毕业设计\workspace\blog)
+2021-04-28 10:34:20.894 DEBUG 7756 --- [main] com.lsx.blog.BlogApplication             : Running with Spring Boot v2.4.5, Spring v5.3.6
+2021-04-28 10:34:20.894  INFO 7756 --- [main] com.lsx.blog.BlogApplication             : No active profile set, falling back to default profiles: default
+2021-04-28 10:34:21.938  WARN 7756 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.lsx.blog]' package. Please check your configuration.
+2021-04-28 10:34:22.494  INFO 7756 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-04-28 10:34:22.521  INFO 7756 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-04-28 10:34:22.522  INFO 7756 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-04-28 10:34:22.667  INFO 7756 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-04-28 10:34:22.668  INFO 7756 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1710 ms
+2021-04-28 10:34:23.010  INFO 7756 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-28 10:34:23.231  WARN 7756 --- [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-04-28 10:34:23.655  INFO 7756 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-04-28 10:34:23.673  INFO 7756 --- [main] com.lsx.blog.BlogApplication             : Started BlogApplication in 3.384 seconds (JVM running for 4.234)
